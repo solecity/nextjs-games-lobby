@@ -1,0 +1,8 @@
+@import "@/styles/variables.scss";
+
+.wrapper {
+  @include scroll();
+  overflow-y: auto;
+
+  height: 100%;
+}
